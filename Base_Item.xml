@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd"
+    OBJID="some.pid">
+
+    <METS:fileSec>
+        <!-- Provides locational data for all bitstreams -->
+        <METS:fileGrp USE="Metadata">
+            <!-- Required, used to point to metadata files (XML) laid out on disk and managed by the DRS itself -->
+        </METS:fileGrp>
+        <METS:fileGrp USE="Managed_Files">
+            <!-- Required, used to point to files deposited by the user and managed by the DRS itself -->
+        </METS:fileGrp>
+        <METS:fileGrp USE="External_Files">
+            <!-- Optional, used to point to files that exist in and managed by IIIF, BaseX, Streaming Server and other external services -->
+        </METS:fileGrp>
+    </METS:fileSec>
+
+    <METS:structMap>
+        <!-- CERES will focus on this to determine what "dances" an object can do -->
+        <METS:div>
+            <METS:div TYPE="Metadata">
+                <!-- Required -->
+            </METS:div>
+            <METS:div TYPE="Representations">
+                <!-- Required, includes source and derived files -->
+            </METS:div>
+        </METS:div>
+    </METS:structMap>
+</METS:mets>

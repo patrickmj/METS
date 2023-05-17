@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd"
+    OBJID="some.pid">
+    
+    <METS:fileSec>
+        <METS:fileGrp USE="Metadata">
+            <METS:file ID="MODS1" USE="MODS" >
+                <METS:FLocat LOCTYPE="URL" xlink:href="URL to retreive MODS record"/>
+            </METS:file>
+            <METS:file ID="FITS1" USE="FITS" SEQ="1">
+                <METS:FLocat LOCTYPE="URL" xlink:href="URL to retrieve FITS record for depoisted Word doc"/>
+            </METS:file>
+            <METS:file ID="FITS2" USE="FITS" SEQ="1">
+                <METS:FLocat LOCTYPE="URL" xlink:href="URL to retrieve FITS record for derived PDF file"/>
+            </METS:file>
+            <METS:file ID="ACCESS1" USE="ACCESS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="URL to retrieve Access record"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="Managed_Files">
+            <METS:file ID="File1" MIMETYPE="application/vnd.ms-word">
+                <METS:FLocat LOCTYPE="URL" xlink:href="URL to retreive deposited word file"/>
+            </METS:file>
+            <METS:file ID="File2" MIMETYPE="application/pdf">
+                <METS:FLocat LOCTYPE="URL" xlink:href="URL to retreive derived PDF file"/>
+            </METS:file>
+        </METS:fileGrp>
+    </METS:fileSec>
+    <METS:structMap>
+        <METS:div>
+            <METS:div TYPE="Metadata">
+                <METS:div TYPE="MODS">
+                    <METS:fptr FILEID="MODS1"/>
+                </METS:div>
+                <METS:div TYPE="FITS">
+                    <METS:fptr FILEID="FITS1" CONTENTIDS="#File1"/>
+                    <METS:fptr FILEID="FITS2" CONTENTIDS="#File2"/>
+                </METS:div>
+                <METS:div TYPE="ACCESS">
+                    <METS:fptr FILEID="ACCESS1"/>
+                </METS:div>
+            </METS:div>
+            <METS:div TYPE="Representations">
+                <METS:div TYPE="Source_Word">
+                    <METS:fptr FILEID="File1"/>
+                </METS:div>
+                <METS:div TYPE="Derived_PDF">
+                    <METS:fptr FILEID="File2"/>
+                </METS:div>
+            </METS:div>
+        </METS:div>
+    </METS:structMap>
+</METS:mets>
