@@ -1,0 +1,99 @@
+{
+    "payload": {
+        "base_metadata": {
+            "title": "Mercy Seat, The",
+            "creator": "Cave, Nick",
+            "date": 1998,
+            "abstract": "Only the best freakin song ever.",
+            "thumbnail": "SOME URL HERE"
+        },
+        "metadata": {
+            "mods": {"url": "SOME URL HERE"}
+        },
+        "representations": {
+            "PDF_Files": {
+                "PDF_File": {
+                    "order": 0,
+                    "url": "SOME URL HERE",
+                    "fits": "SOME URL HERE"
+                }
+            },
+            "TEI_Files": {
+                "TEI_File": [
+                    {
+                        "order": 0,
+                        "language": "en",
+                        "url": "SOME URL HERE",
+                        "fits": "SOME URL HERE"
+                    },
+                    {
+                        "order": 0,
+                        "language": "sp",
+                        "url": "SOME URL HERE",
+                        "fits": "SOME URL HERE"
+                    }
+                ]
+            },
+            "Indexed_TEI_Files": {
+                "Indexed_TEI_File": [
+                    {
+                        "order": 0,
+                        "language": "en",
+                        "url": "SOME URL HERE"
+                    },
+                    {
+                        "order": 0,
+                        "language": "sp",
+                        "url": "SOME URL HERE"
+                    }
+                ]
+            },
+            "Streaming_Audio_Files": {
+                "Streaming_Audio_file": {
+                    "order": 0,
+                    "url": "SOME URL HERE"
+                }
+            },
+            "Audio_Poster_Files": {
+                "Audio_Poster_File": {
+                    "order": 0,
+                    "url": "SOME URL HERE",
+                    "fits": "SOME URL HERE"
+                }
+            },
+            "IIIF_Image_Files": {
+                "IIIF_Image_File": [
+                    {
+                        "order": 1,
+                        "url": "SOME URL HERE"
+                    },
+                    {
+                        "order": 2,
+                        "url": "SOME URL HERE"
+                    }
+                ]
+            },
+            "Image_Files": {
+                "Image_File": [
+                    {
+                        "order": 1,
+                        "url": "SOME URL HERE",
+                        "fits": "SOME URL HERE"
+                    },
+                    {
+                        "order": 2,
+                        "url": "SOME URL HERE",
+                        "fits": "SOME URL HERE"
+                    }
+                ]
+            },
+            "IIIF_Manifest_Files": {
+                "IIIF_Manifest_File": {
+                    "label": "Canonical",
+                    "order": 0,
+                    "url": "SOME URL HERE"
+                }
+            }
+        }
+    }
+}

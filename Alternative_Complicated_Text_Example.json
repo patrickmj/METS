@@ -1,0 +1,291 @@
+{
+    "METS:mets": {
+        "xmlns:METS": "http://www.loc.gov/METS/",
+        "xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+        "xsi:schemaLocation": "http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd",
+        "OBJID": "some.pid",
+        "METS:fileSec": {
+            "METS:fileGrp": [
+                {
+                    "USE": "Metadata",
+                    "METS:file": [
+                        {
+                            "ID": "MODS1",
+                            "USE": "MODS",
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URLto retrieve MODS record"
+                            }
+                        },
+                        {
+                            "ID": "FITS1",
+                            "USE": "FITS",
+                            "SEQ": 1,
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve FITS record for PDF"
+                            }
+                        },
+                        {
+                            "ID": "FITS2",
+                            "USE": "FITS",
+                            "SEQ": 1,
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve FITS record for English TEI"
+                            }
+                        },
+                        {
+                            "ID": "FITS3",
+                            "USE": "FITS",
+                            "SEQ": 1,
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve FITS record for Audio"
+                            }
+                        },
+                        {
+                            "ID": "FITS4",
+                            "USE": "FITS",
+                            "SEQ": 1,
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve FITS record for 1st Page Image"
+                            }
+                        },
+                        {
+                            "ID": "FITS5",
+                            "USE": "FITS",
+                            "SEQ": 1,
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve FITS record for 2nd Page Image"
+                            }
+                        },
+                        {
+                            "ID": "FITS6",
+                            "USE": "FITS",
+                            "SEQ": 1,
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve FITS record for Spanish TEI"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "USE": "Managed_Files",
+                    "METS:file": [
+                        {
+                            "ID": "File1",
+                            "MIMETYPE": "application/pdf",
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve deposited PDF"
+                            }
+                        },
+                        {
+                            "ID": "File2",
+                            "MIMETYPE": "text/xml",
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve English TEI from disk"
+                            }
+                        },
+                        {
+                            "ID": "File3",
+                            "MIMETYPE": "application/wav",
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve audio from disk"
+                            }
+                        },
+                        {
+                            "ID": "File4",
+                            "MIMETYPE": "image/jpeg",
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve image from disk"
+                            }
+                        },
+                        {
+                            "ID": "File5",
+                            "MIMETYPE": "image/jpeg",
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve image from disk"
+                            }
+                        },
+                        {
+                            "ID": "File10",
+                            "MIMETYPE": "text/xml",
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve Spanish TEI from disk"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "USE": "External_Files",
+                    "METS:file": [
+                        {
+                            "ID": "File6",
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve TEI from baseX"
+                            }
+                        },
+                        {
+                            "ID": "File7",
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve Streaming Audio"
+                            }
+                        },
+                        {
+                            "ID": "File8",
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve IIIF Image"
+                            }
+                        },
+                        {
+                            "ID": "File9",
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve IIIF Image"
+                            }
+                        },
+                        {
+                            "ID": "File11",
+                            "METS:FLocat": {
+                                "LOCTYPE": "URL",
+                                "xlink:href": "URL to retrieve Spanish TEI from baseX"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "METS:structMap": {
+            "METS:div": {
+                "METS:div": [
+                    {
+                        "TYPE": "Metadata",
+                        "METS:div": [
+                            {
+                                "TYPE": "MODS",
+                                "METS:fptr": {"FILEID": "MODS1"}
+                            },
+                            {
+                                "TYPE": "FITS",
+                                "METS:fptr": [
+                                    {
+                                        "FILEID": "FITS1",
+                                        "CONTENTIDS": "#File1"
+                                    },
+                                    {
+                                        "FILEID": "FITS2",
+                                        "CONTENTIDS": "#File2"
+                                    },
+                                    {
+                                        "FILEID": "FITS3",
+                                        "CONTENTIDS": "#File3"
+                                    },
+                                    {
+                                        "FILEID": "FITS4",
+                                        "CONTENTIDS": "#File4"
+                                    },
+                                    {
+                                        "FILEID": "FITS5",
+                                        "CONTENTIDS": "#File5"
+                                    },
+                                    {
+                                        "FILEID": "FITS6",
+                                        "CONTENTIDS": "#File10"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "TYPE": "Representations",
+                        "METS:div": [
+                            {
+                                "TYPE": "Source_PDF",
+                                "METS:fptr": {"FILEID": "File1"}
+                            },
+                            {
+                                "TYPE": "Source_TEI",
+                                "METS:fptr": [
+                                    {
+                                        "FILEID": "File2",
+                                        "xml:lang": "en"
+                                    },
+                                    {
+                                        "FILEID": "File10",
+                                        "xml:lang": "es"
+                                    }
+                                ]
+                            },
+                            {
+                                "TYPE": "BaseX_TEI",
+                                "METS:fptr": [
+                                    {
+                                        "FILEID": "File6",
+                                        "xml:lang": "en"
+                                    },
+                                    {
+                                        "FILEID": "File11",
+                                        "xml:lang": "es"
+                                    }
+                                ]
+                            },
+                            {
+                                "TYPE": "Source_Audio",
+                                "METS:fptr": {"FILEID": "File3"}
+                            },
+                            {
+                                "TYPE": "Streaming_Audio",
+                                "METS:fptr": {"FILEID": "File7"}
+                            },
+                            {
+                                "TYPE": "Source_Images",
+                                "METS:div": [
+                                    {
+                                        "ORDER": 1,
+                                        "TYPE": "Source_Image",
+                                        "METS:fptr": {"FILEID": "File4"}
+                                    },
+                                    {
+                                        "ORDER": 2,
+                                        "TYPE": "Source_Image",
+                                        "METS:fptr": {"FILEID": "File5"}
+                                    }
+                                ]
+                            },
+                            {
+                                "TYPE": "IIIF_Images",
+                                "METS:div": [
+                                    {
+                                        "TYPE": "IIIF_Image",
+                                        "ORDER": 1,
+                                        "METS:fptr": {"FILEID": "File8"}
+                                    },
+                                    {
+                                        "TYPE": "IIIF_Image",
+                                        "ORDER": 2,
+                                        "METS:fptr": {"FILEID": "File9"}
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
