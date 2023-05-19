@@ -39,7 +39,6 @@
                     "url": "SOME URL HERE",
                     "fits": "SOME URL HERE",
                     "indexed": {
-                        "order": 0,
                         "language": "en",
                         "url": "SOME URL HERE"
                     }

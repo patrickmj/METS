@@ -48,7 +48,6 @@ I'd imagine that the METS behind the JSON would want to keep things like `TEI_Fi
         "url": "SOME URL HERE",
         "fits": "SOME URL HERE",
         "indexed": {
-            "order": 0,
             "language": "en",
             "url": "SOME URL HERE"
         }
