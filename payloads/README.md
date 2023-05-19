@@ -41,12 +41,36 @@ Alternative for the order in the JSON: make everything an array. An array is by 
 
 I'd imagine that the METS behind the JSON would want to keep things like `TEI_Files` and `Indexed_TEI_Files` sharply distinct, as they are in `PY_payload.json`, for our internal organization and structures. For the API JSON response, it might be easier to work with to reunite them, if possible. So, `PMJ_payload.json` puts them in more of a hierarchy. `TEI_Files` and `Indexed_TEI_Files` get put together into one `TEI` key, with data about the indexed TEI more closely attached to source TEI:
 
+```json
+"TEI": [
+    {
+        "language": "en",
+        "url": "SOME URL HERE",
+        "fits": "SOME URL HERE",
+        "indexed": {
+            "order": 0,
+            "language": "en",
+            "url": "SOME URL HERE"
+        }
+    },
+    {
+        "language": "sp",
+        "url": "SOME URL HERE",
+        "fits": "SOME URL HERE",
+        "indexed": {
+            "language": "en",
+            "url": "SOME URL HERE"
+        }
+    }
+],
+
+```
 
 
 
 
 
-The IIIF handling seems like it could have some complications. But here, I'm working with the [simplest manifest](https://iiif.io/api/cookbook/recipe/0001-mvm-image/), which is basically 1-1 image to manifest. The structure of keys of `url`, `manifest` leaves open adding `annotation`, but again assumes 1-1 with image.
+The IIIF handling seems like it could have some complications. But here, I'm working with the [simplest manifest](https://iiif.io/api/cookbook/recipe/0001-mvm-image/), which is basically 1-1 image to manifest. The structure of keys of `url`, `manifest` leaves open adding `annotation`, but again assumes 1-1 with image I _think_. Might need a deeper dive into it with others.
 
 In an earlier example METS, we had put `@MIMETYPE` somewhere. It looks, though, like in most cases that type-hinting can come through with the JSON keys. However, it might be nice to carry that through explicitly as I've done in a couple places in `PMJ_payload.json`. 
 
