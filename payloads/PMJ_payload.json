@@ -1,0 +1,97 @@
+{
+    "payload": {
+        "pid": "the PID",
+        "metadata": {
+            "base (or dc?)": {
+                "title": "Mercy Seat, The",
+                "creator": "Cave, Nick",
+                "date": 1998,
+                "abstract": "Only the best freakin song ever.",
+                "thumbnail": "SOME URL HERE"
+            },
+            "mods": {"url": "SOME URL HERE"},
+            "vra": {"url": "SOME URL HERE"},
+            "niec": {"url": "SOME URL HERE"},
+            "dwc": {"url": "SOME URL HERE"},
+            "whatever": {"url": "SOME URL HERE"}
+        },
+        "representations": {
+            "thumbnails": {
+                "IIIF": {
+                    "very_small": "URL to IIIF preset extra small image URL",
+                    "small": "URL to IIIF preset small image URL",
+                    "medium": "URL to IIIF preset medium image URL",
+                    "large": "URL to IIIF preset large image URL",
+                    "extra_large": "URL to IIIF preset extra large image URL",
+                    "base": "URL to base IIIF without presets in case CERES wants to get fancy (e.g., a special thumbnail about the region rather than the size)"
+                },
+                "poster": "URL to poster, e.g. for a podcast"
+            },
+            "PDF": [
+                {
+                    "url": "SOME URL HERE",
+                    "fits": "SOME URL HERE"
+                }
+            ],
+            "TEI": [
+                {
+                    "language": "en",
+                    "url": "SOME URL HERE",
+                    "fits": "SOME URL HERE",
+                    "indexed": {
+                        "order": 0,
+                        "language": "en",
+                        "url": "SOME URL HERE"
+                    }
+                },
+                {
+                    "language": "sp",
+                    "url": "SOME URL HERE",
+                    "fits": "SOME URL HERE",
+                    "indexed": {
+                        "language": "en",
+                        "url": "SOME URL HERE"
+                    }
+                }
+            ],
+            "Audio": [
+                {
+                    "url": "SOME URL HERE",
+                    "mimeType": "",
+                    "poster": {
+                        "url": "SOME URL HERE",
+                        "fits": "SOME URL HERE"
+                    }
+                }
+            ],
+            "IIIF": [
+                {
+                    "url": "SOME URL HERE",
+                    "manifest": {
+                        "label": "Canonical",
+                        "url": "SOME URL HERE"
+                    }
+                },
+                {
+                    "url": "SOME URL HERE",
+                    "manifest": {
+                        "label": "Canonical",
+                        "url": "SOME URL HERE"
+                    }
+                }
+            ],
+            "Image (will we ever have non IIIF images?)": [
+                {
+                    "url": "SOME URL HERE",
+                    "mimeType": "",
+                    "fits": "SOME URL HERE"
+                },
+                {
+                    "url": "SOME URL HERE",
+                    "mimeType": "",
+                    "fits": "SOME URL HERE"
+                }
+            ]
+        }
+    }
+}
