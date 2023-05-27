@@ -1,0 +1,149 @@
+{
+    "payload": {
+        "Metadata": {
+            "MODS_Files": [
+                {
+                    "order": 0,
+                    "url": "URL to retrieve MODS record",
+                    "lang": "en"
+                },
+                {
+                    "order": 0,
+                    "url": "URL to retrieve MODS record",
+                    "lang": "es"
+                }
+            ],
+            "Thumbnail_Files": [
+                {
+                    "label": "Thumbnail 1",
+                    "order": 0,
+                    "url": "URL to retrieve Class 1 Thumbnail",
+                    "mimetype": "image/jpeg"
+                },
+                {
+                    "label": "Thumbnail 2",
+                    "order": 0,
+                    "url": "URL to retrieve Class 2 Thumbnail",
+                    "mimetype": "image/jpeg"
+                },
+                {
+                    "label": "Thumbnail 3",
+                    "order": 0,
+                    "url": "URL to retrieve Class 3 Thumbnail",
+                    "mimetype": "image/jpeg"
+                },
+                {
+                    "label": "Thumbnail 4",
+                    "order": 0,
+                    "url": "URL to retrieve Class 4 Thumbnail",
+                    "mimetype": "image/jpeg"
+                },
+                {
+                    "label": "Thumbnail 5",
+                    "order": 0,
+                    "url": "URL to retrieve Class 5 Thumbnail",
+                    "mimetype": "image/jpeg"
+                }
+            ]
+        },
+        "Representations": {
+            "PDF_Files": [
+                {
+                    "order": 0,
+                    "url": "URL to retrieve deposited PDF",
+                    "fits": "URL to retrieve FITS record for PDF",
+                    "mimetype": "application/pdf",
+                    "lang": "en"
+                }
+            ],
+            "TEI_Files": [
+                {
+                    "order": 0,
+                    "url": "URL to retrieve English TEI from disk",
+                    "fits": "URL to retrieve FITS record for English TEI",
+                    "mimetype": "text/xml",
+                    "lang": "en"
+                },
+                {
+                    "order": 0,
+                    "url": "URL to retrieve Spanish TEI from disk",
+                    "fits": "URL to retrieve FITS record for Spanish TEI",
+                    "mimetype": "text/xml",
+                    "lang": "es"
+                }
+            ],
+            "Indexed_TEI_Files": [
+                {
+                    "order": 0,
+                    "url": "URL to retrieve English TEI from XML Database",
+                    "lang": "en"
+                },
+                {
+                    "order": 0,
+                    "url": "URL to retrieve Spanish TEI from XML Database",
+                    "lang": "es"
+                }
+            ],
+            "Audio_Files": [
+                {
+                    "label": "Master",
+                    "order": 0,
+                    "url": "URL to retrieve master audio from disk",
+                    "fits": "URL to retrieve FITS record for Master Audio",
+                    "mimetype": "application/wav"
+                },
+                {
+                    "label": "Service Copy",
+                    "order": 0,
+                    "url": "URL to retrieve service audio from disk",
+                    "fits": "URL to retrieve FITS record for Service Audio",
+                    "mimetype": "application/mp4"
+                }
+            ],
+            "Streaming_Audio_Files": [
+                {
+                    "order": 1,
+                    "url": "URL to retrieve Streaming Audio"
+                }
+            ],
+            "Audio_Poster_Files": [
+                {
+                    "order": 0,
+                    "url": "URL to retrieve poster for audio streaming",
+                    "fits": "URL to retrieve FITS record for Audio Poster Image",
+                    "mimetype": "image/jpeg"
+                }
+            ],
+            "Image_Files": [
+                {
+                    "order": 1,
+                    "url": "URL to retrieve image from disk",
+                    "fits": "URL to retrieve FITS record for 1st Page Image",
+                    "mimetype": "image/tiff"
+                },
+                {
+                    "order": 2,
+                    "url": "URL to retrieve image from disk",
+                    "fits": "URL to retrieve FITS record for 2nd Page Image",
+                    "mimetype": "image/tiff"
+                }
+            ],
+            "IIIF_Image_Files": [
+                {
+                    "order": 1,
+                    "url": "URL to retrieve IIIF Image"
+                },
+                {
+                    "order": 2,
+                    "url": "URL to retrieve IIIF Image"
+                }
+            ],
+            "IIIF_Manifest_Files": [
+                {
+                    "order": 0,
+                    "url": "URL to retrieve IIIF Manifest"
+                }
+            ]
+        }
+    }
+}

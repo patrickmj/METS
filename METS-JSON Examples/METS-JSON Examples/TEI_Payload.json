@@ -1,0 +1,76 @@
+{
+    "payload": {
+        "Work": {
+            "Metadata": {
+                "MODS_Files": {
+                    "MODS_File": {
+                        "order": 0,
+                        "url": "URL to retrieve MODS record",
+                        "lang": "en"
+                    }
+                },
+                "Thumbnail_files": {
+                    "Thumbnail_File": [
+                        {
+                            "label": "Thumbnail 1",
+                            "order": 0,
+                            "url": "URL to retrieve Class 1 Thumbnail",
+                            "mimetype": "image/jpeg"
+                        },
+                        {
+                            "label": "Thumbnail 2",
+                            "order": 0,
+                            "url": "URL to retrieve Class 2 Thumbnail",
+                            "mimetype": "image/jpeg"
+                        },
+                        {
+                            "label": "Thumbnail 3",
+                            "order": 0,
+                            "url": "URL to retrieve Class 3 Thumbnail",
+                            "mimetype": "image/jpeg"
+                        },
+                        {
+                            "label": "Thumbnail 4",
+                            "order": 0,
+                            "url": "URL to retrieve Class 4 Thumbnail",
+                            "mimetype": "image/jpeg"
+                        },
+                        {
+                            "label": "Thumbnail 5",
+                            "order": 0,
+                            "url": "URL to retrieve Class 5 Thumbnail",
+                            "mimetype": "image/jpeg"
+                        }
+                    ]
+                }
+            },
+            "Representations": {
+                "PDF_Files": {
+                    "PDF": {
+                        "order": 0,
+                        "url": "URL to retrieve deposited PDF",
+                        "fits": "URL to retrieve FITS record for PDF",
+                        "mimetype": "application/pdf",
+                        "lang": "en"
+                    }
+                },
+                "TEI_Files": {
+                    "TEI_File": {
+                        "order": 0,
+                        "url": "URL to retrieve TEI from disk",
+                        "fits": "URL to retrieve FITS record for TEI",
+                        "mimetype": "text/xml",
+                        "lang": "en"
+                    }
+                },
+                "Indexed_TEI_Files": {
+                    "Indexed_TEI_File": {
+                        "order": 0,
+                        "url": "URL to retrieve English TEI from XML Database",
+                        "lang": "en"
+                    }
+                }
+            }
+        }
+    }
+}

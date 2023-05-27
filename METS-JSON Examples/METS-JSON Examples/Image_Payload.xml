@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payload>
+    <Work>
+        <Metadata>
+            <MODS_Files>
+                <MODS_File>
+                    <order>0</order>
+                    <url>URL to retrieve MODS record</url>
+                    <lang>en</lang>
+                </MODS_File>
+            </MODS_Files>
+            <Thumbnail_files>
+                <Thumbnail_File>
+                    <label>Thumbnail 1</label>
+                    <order>0</order>
+                    <url>URL to retrieve Class 1 Thumbnail</url>
+                    <mimetype>image/jpeg</mimetype>
+                </Thumbnail_File>
+                <Thumbnail_File>
+                    <label>Thumbnail 2</label>
+                    <order>0</order>
+                    <url>URL to retrieve Class 2 Thumbnail</url>
+                    <mimetype>image/jpeg</mimetype>
+                </Thumbnail_File>
+                <Thumbnail_File>
+                    <label>Thumbnail 3</label>
+                    <order>0</order>
+                    <url>URL to retrieve Class 3 Thumbnail</url>
+                    <mimetype>image/jpeg</mimetype>
+                </Thumbnail_File>
+                <Thumbnail_File>
+                    <label>Thumbnail 4</label>
+                    <order>0</order>
+                    <url>URL to retrieve Class 4 Thumbnail</url>
+                    <mimetype>image/jpeg</mimetype>
+                </Thumbnail_File>
+                <Thumbnail_File>
+                    <label>Thumbnail 5</label>
+                    <order>0</order>
+                    <url>URL to retrieve Class 5 Thumbnail</url>
+                    <mimetype>image/jpeg</mimetype>
+                </Thumbnail_File>
+            </Thumbnail_files>
+        </Metadata>
+        <Representations>
+            <Image_Files>
+                <Image_File>
+                    <order>1</order>
+                    <url>URL to retrieve image from disk</url>
+                    <fits>URL to retrieve FITS record for 1st Page Image</fits>
+                    <mimetype>image/tiff</mimetype>
+                </Image_File>
+                <Image_File>
+                    <order>2</order>
+                    <url>URL to retrieve image from disk</url>
+                    <fits>URL to retrieve FITS record for 2nd Page Image</fits>
+                    <mimetype>image/tiff</mimetype>
+                </Image_File>
+            </Image_Files>
+            <IIIF_Image_Files>
+                <IIIF_Image_File>
+                    <order>1</order>
+                    <url>URL to retrieve IIIF Image</url>
+                </IIIF_Image_File>
+                <IIIF_Image_File>
+                    <order>2</order>
+                    <url>URL to retrieve IIIF Image</url>
+                </IIIF_Image_File>
+            </IIIF_Image_Files>
+            <IIIF_Manifest_Files>
+                <IIIF_Manifest_File>
+                    <order>0</order>
+                    <url>URL to retrieve IIIF Manifest</url>
+                </IIIF_Manifest_File>
+            </IIIF_Manifest_Files>
+        </Representations>
+    </Work>
+</payload>
