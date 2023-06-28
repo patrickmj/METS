@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="NEU:SPREASHEET">
+
+    <METS:fileSec>
+        <METS:fileGrp USE="metadata">
+            <METS:file ID="ACCESS1" USE="ACCESS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="ACCESS-LOCATION"/>
+            </METS:file>
+            <METS:file ID="MODS1" USE="MODS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MODS-ENGLISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS1" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-XSLX-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS2" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-CSV-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS3" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-XLS-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS4" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-TSV-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="managed_files">
+            <METS:file ID="spreadsheet1" MIMETYPE="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+                <METS:FLocat LOCTYPE="URL" xlink:href="XLSX-LOCATION"/>
+            </METS:file>
+            <METS:file ID="spreadsheet2" MIMETYPE="text/csv">
+                <METS:FLocat LOCTYPE="URL" xlink:href="CSV-LOCATION"/>
+            </METS:file>
+            <METS:file ID="spreadsheet3" MIMETYPE="application/vnd.ms-excel">
+                <METS:FLocat LOCTYPE="URL" xlink:href="XLS-LOCATION"/>
+            </METS:file>
+            <METS:file ID="spreadsheet4" MIMETYPE="text/tab-separated-values">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TSV-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="derivative_files">
+            <METS:file ID="thumb1" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-1-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb2" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-2-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb3" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb4" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-4-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb5" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-5-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+    </METS:fileSec>
+    <METS:structMap>
+        <METS:div TYPE="work">
+            <METS:div TYPE="metadata">
+                <METS:div TYPE="ACCESS">
+                    <METS:fptr FILEID="ACCESS1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="MODS">
+                    <METS:fptr FILEID="MODS1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="FITS">
+                    <METS:fptr FILEID="FITS1" CONTENTIDS="#spreadsheet1"/>
+                    <METS:fptr FILEID="FITS2" CONTENTIDS="#spreadsheet2"/>
+                    <METS:fptr FILEID="FITS3" CONTENTIDS="#spreadsheet3"/>
+                    <METS:fptr FILEID="FITS4" CONTENTIDS="#spreadsheet4"/>
+                </METS:div>
+                <METS:div TYPE="thumbnail_files">
+                    <METS:div TYPE="thumbnail_file" ORDER="1" LABEL="Thumbnail 1">
+                        <METS:fptr FILEID="thumb1"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="2" LABEL="Thumbnail 2">
+                        <METS:fptr FILEID="thumb2"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="3" LABEL="Thumbnail 3">
+                        <METS:fptr FILEID="thumb3"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="4" LABEL="Thumbnail 4">
+                        <METS:fptr FILEID="thumb4"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="5" LABEL="Thumbnail 5">
+                        <METS:fptr FILEID="thumb5"/>
+                    </METS:div>
+                </METS:div>
+            </METS:div>
+            <METS:div TYPE="representations">
+                <METS:div TYPE="spreadsheet_files">
+                    <METS:div TYPE="spreadsheet_file" ORDER="0" LABEL="Spreasheet">
+                        <METS:fptr FILEID="spreadsheet1"/>
+                    </METS:div>
+                    <METS:div TYPE="spreadsheet_file" ORDER="0" LABEL="Spreasheet">
+                        <METS:fptr FILEID="spreadsheet2"/>
+                    </METS:div>
+                    <METS:div TYPE="spreadsheet_file" ORDER="0" LABEL="Spreasheet">
+                        <METS:fptr FILEID="spreadsheet3"/>
+                    </METS:div>
+                    <METS:div TYPE="spreadsheet_file" ORDER="0" LABEL="Spreasheet">
+                        <METS:fptr FILEID="spreadsheet4"/>
+                    </METS:div>
+                </METS:div>
+            </METS:div>
+        </METS:div>
+    </METS:structMap>
+</METS:mets>

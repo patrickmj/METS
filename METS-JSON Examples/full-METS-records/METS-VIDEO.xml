@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="NEU:VIDEO">
+
+    <METS:fileSec>
+        <METS:fileGrp USE="metadata">
+            <METS:file ID="ACCESS1" USE="ACCESS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="ACCESS-LOCATION"/>
+            </METS:file>
+            <METS:file ID="MODS1" USE="MODS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MODS-ENGLISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS1" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-MOV-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS2" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-MP4-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS3" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-AVI-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS4" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-MPEG-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="managed_files">
+            <METS:file ID="video1" MIMETYPE="video/quicktime">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MOV-LOCATION"/>
+            </METS:file>
+            <METS:file ID="video2" MIMETYPE="video/mp4">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MP4-LOCATION"/>
+            </METS:file>
+            <METS:file ID="video3" MIMETYPE="video/x-msvideo">
+                <METS:FLocat LOCTYPE="URL" xlink:href="AVI-LOCATION"/>
+            </METS:file>
+            <METS:file ID="video4" MIMETYPE="video/mpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MPEG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="caption1" MIMETYPE="text/plain">
+                <METS:FLocat LOCTYPE="URL" xlink:href="SRT-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image1" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="JPEG-POSTER-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="derivative_files">
+            <METS:file ID="thumb1" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-1-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb2" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-2-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb3" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb4" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-4-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb5" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-5-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="external_files">
+            <METS:file ID="streaming1">
+                <METS:FLocat LOCTYPE="URL" xlink:href="VIDEO-STREAMING-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+    </METS:fileSec>
+    <METS:structMap>
+        <METS:div TYPE="work">
+            <METS:div TYPE="metadata">
+                <METS:div TYPE="ACCESS">
+                    <METS:fptr FILEID="ACCESS1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="MODS">
+                    <METS:fptr FILEID="MODS1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="FITS">
+                    <METS:fptr FILEID="FITS1" CONTENTIDS="#video1"/>
+                    <METS:fptr FILEID="FITS2" CONTENTIDS="#video2"/>
+                    <METS:fptr FILEID="FITS3" CONTENTIDS="#video3"/>
+                    <METS:fptr FILEID="FITS4" CONTENTIDS="#video4"/>
+                </METS:div>
+                <METS:div TYPE="poster_files">
+                    <METS:div TYPE="poster_file" ORDER="0" LABEL="Poster file">
+                        <METS:fptr FILEID="image1"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="video_files">
+                    <METS:div TYPE="video_file" ORDER="0" LABEL="Preservation">
+                        <METS:fptr FILEID="video1" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="video_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="video2" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="video_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="video3" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="video_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="video4" xml:lang="en"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="streaming_media">
+                    <METS:div TYPE="streaming_audio" ORDER="0" LABEL="Streaming">
+                        <METS:fptr FILEID="streaming1" xml:lang="en"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="caption_files">
+                    <METS:div TYPE="caption_file" ORDER="0" CONTENTIDS="#audio1" LABEL="Captions">
+                        <METS:fptr FILEID="caption1" xml:lang="en"/>
+                    </METS:div>
+                </METS:div>
+            </METS:div>
+        </METS:div>
+
+    </METS:structMap>
+
+
+</METS:mets>

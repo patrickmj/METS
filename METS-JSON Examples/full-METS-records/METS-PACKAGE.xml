@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="NEU:PACKAGE">
+
+    <METS:fileSec>
+        <METS:fileGrp USE="metadata">
+            <METS:file ID="ACCESS1" USE="ACCESS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="ACCESS-LOCATION"/>
+            </METS:file>
+            <METS:file ID="MODS1" USE="MODS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MODS-ENGLISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS1" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-ZIP-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS2" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-TAR-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS3" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-TARGZ-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="managed_files">
+            <METS:file ID="package1" MIMETYPE="application/zip">
+                <METS:FLocat LOCTYPE="URL" xlink:href="ZIP-LOCATION"/>
+            </METS:file>
+            <METS:file ID="package2" MIMETYPE="application/x-tar">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TAR-LOCATION"/>
+            </METS:file>
+            <METS:file ID="package3" MIMETYPE="application/gzip">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TARGZ-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="derivative_files">
+            <METS:file ID="thumb1" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-1-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb2" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-2-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb3" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb4" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-4-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb5" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-5-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+    </METS:fileSec>
+    <METS:structMap>
+        <METS:div TYPE="work">
+            <METS:div TYPE="metadata">
+                <METS:div TYPE="ACCESS">
+                    <METS:fptr FILEID="ACCESS1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="MODS">
+                    <METS:fptr FILEID="MODS1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="FITS">
+                    <METS:fptr FILEID="FITS1" CONTENTIDS="#package1"/>
+                    <METS:fptr FILEID="FITS2" CONTENTIDS="#package2"/>
+                    <METS:fptr FILEID="FITS3" CONTENTIDS="#package3"/>
+                </METS:div>
+                <METS:div TYPE="thumbnail_files">
+                    <METS:div TYPE="thumbnail_file" ORDER="1" LABEL="Thumbnail 1">
+                        <METS:fptr FILEID="thumb1"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="2" LABEL="Thumbnail 2">
+                        <METS:fptr FILEID="thumb2"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="3" LABEL="Thumbnail 3">
+                        <METS:fptr FILEID="thumb3"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="4" LABEL="Thumbnail 4">
+                        <METS:fptr FILEID="thumb4"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="5" LABEL="Thumbnail 5">
+                        <METS:fptr FILEID="thumb5"/>
+                    </METS:div>
+                </METS:div>
+            </METS:div>
+            <METS:div TYPE="representations">
+                <METS:div TYPE="package_files">
+                    <METS:div TYPE="ZIP_file" ORDER="0" LABEL="ZIP package">
+                        <METS:fptr FILEID="package1"/>
+                    </METS:div>
+                    <METS:div TYPE="TAR_file" ORDER="0" LABEL="TAR package">
+                        <METS:fptr FILEID="package2"/>
+                    </METS:div>
+                    <METS:div TYPE="TAR_file" ORDER="0" LABEL="TAR package">
+                        <METS:fptr FILEID="package3"/>
+                    </METS:div>
+                </METS:div>
+            </METS:div>
+        </METS:div>
+    </METS:structMap>
+</METS:mets>

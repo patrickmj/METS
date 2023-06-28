@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="NEU:TEXT">
+
+    <METS:fileSec>
+        <METS:fileGrp USE="metadata">
+            <METS:file ID="ACCESS1" USE="ACCESS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="ACCESS-LOCATION"/>
+            </METS:file>
+            <METS:file ID="MODS1" USE="MODS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MODS-ENGLISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS1" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-PDF"/>
+            </METS:file>
+            <METS:file ID="FITS2" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-WORD"/>
+            </METS:file>
+            <METS:file ID="FITS3" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-EPUB"/>
+            </METS:file>
+            <METS:file ID="FITS4" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-TXT"/>
+            </METS:file>
+            <METS:file ID="FITS5" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-RTF"/>
+            </METS:file>
+            <METS:file ID="FITS6" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-XML-EN-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS7" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-XML-ES-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS8" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-XSL"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="managed_files">
+            <METS:file ID="text1" MIMETYPE="application/pdf">
+                <METS:FLocat LOCTYPE="URL" xlink:href="PDF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text2" MIMETYPE="application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                <METS:FLocat LOCTYPE="URL" xlink:href="WORD-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text3" MIMETYPE="application/epub+zip">
+                <METS:FLocat LOCTYPE="URL" xlink:href="EPUB-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text4" MIMETYPE="text/plain">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TXT-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text5" MIMETYPE="application/rtf">
+                <METS:FLocat LOCTYPE="URL" xlink:href="RTF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text6" MIMETYPE="application/xml">
+                <METS:FLocat LOCTYPE="URL" xlink:href="XML-ENGLISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text7" MIMETYPE="application/xml">
+                <METS:FLocat LOCTYPE="URL" xlink:href="XML-SPANISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text8" MIMETYPE="application/xml">
+                <METS:FLocat LOCTYPE="URL" xlink:href="XSL-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="derivative_files">
+            <METS:file ID="text9" MIMETYPE="application/pdf">
+                <METS:FLocat LOCTYPE="URL" xlink:href="WORD-2-PDF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb1" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-1-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb2" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-2-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb3" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb4" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-4-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb5" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-5-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="external_files">
+            <METS:file ID="text10">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TEI-ENGLISH-BASEX-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text11">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TEI-SPANISH-BASEX-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+    </METS:fileSec>
+    <METS:structMap>
+        <METS:div TYPE="work">
+            <METS:div TYPE="metadata">
+                <METS:div TYPE="ACCESS">
+                    <METS:fptr FILEID="ACCESS1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="MODS">
+                    <METS:fptr FILEID="MODS1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="FITS">
+                    <METS:fptr FILEID="FITS1" CONTENTIDS="#text1"/>
+                    <METS:fptr FILEID="FITS2" CONTENTIDS="#text2"/>
+                    <METS:fptr FILEID="FITS3" CONTENTIDS="#text3"/>
+                    <METS:fptr FILEID="FITS4" CONTENTIDS="#text4"/>
+                    <METS:fptr FILEID="FITS5" CONTENTIDS="#text5"/>
+                    <METS:fptr FILEID="FITS6" CONTENTIDS="#text6"/>
+                    <METS:fptr FILEID="FITS7" CONTENTIDS="#text7"/>
+                    <METS:fptr FILEID="FITS8" CONTENTIDS="#text8"/>
+                </METS:div>
+                <METS:div TYPE="thumbnail_files">
+                    <METS:div TYPE="thumbnail_file" ORDER="1" LABEL="Thumbnail 1">
+                        <METS:fptr FILEID="thumb1"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="2" LABEL="Thumbnail 2">
+                        <METS:fptr FILEID="thumb2"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="3" LABEL="Thumbnail 3">
+                        <METS:fptr FILEID="thumb3"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="4" LABEL="Thumbnail 4">
+                        <METS:fptr FILEID="thumb4"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="5" LABEL="Thumbnail 5">
+                        <METS:fptr FILEID="thumb5"/>
+                    </METS:div>
+                </METS:div>
+            </METS:div>
+            <METS:div TYPE="text_files">
+                <METS:div TYPE="PDF_file" ORDER="0" LABEL="PDF">
+                    <METS:fptr FILEID="text1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="word_file" ORDER="0" LABEL="Word">
+                    <METS:fptr FILEID="text2" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="EPUB_file" ORDER="0" LABEL="EPUB">
+                    <METS:fptr FILEID="text3" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="text_file" ORDER="0" LABEL="Text">
+                    <METS:fptr FILEID="text4" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="text_file" ORDER="0" LABEL="Text">
+                    <METS:fptr FILEID="text5" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="PDF_file" ORDER="0" LABEL="PDF">
+                    <METS:fptr FILEID="text9" xml:lang="en"/>
+                </METS:div>
+            </METS:div>
+            <METS:div TYPE="XML_files">
+                <METS:div TYPE="TEI_file" ORDER="0" LABEL="TEI">
+                    <METS:fptr FILEID="text6" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="TEI_file" ORDER="0" LABEL="TEI">
+                    <METS:fptr FILEID="text7" xml:lang="es"/>
+                </METS:div>
+                <METS:div TYPE="XSL_file" ORDER="0" LABEL="Styelsheet">
+                    <METS:fptr FILEID="text8" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="indexed_TEI_file" ORDER="0" LABEL="TEI">
+                    <METS:fptr FILEID="text10" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="indexed_TEI_file" ORDER="0" LABEL="TEI">
+                    <METS:fptr FILEID="text11" xml:lang="es"/>
+                </METS:div>
+            </METS:div>
+        </METS:div>
+    </METS:structMap>
+
+</METS:mets>

@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="NEU:ALL">
+
+    <METS:fileSec>
+        <METS:fileGrp USE="metadata">
+            <METS:file ID="ACCESS1" USE="ACCESS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="ACCESS-LOCATION"/>
+            </METS:file>
+            <METS:file ID="MODS1" USE="MODS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MODS-ENGLISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="MODS2" USE="MODS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MODS-SPANISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="DUBLIN-CORE1" USE="DUBLIN-CORE">
+                <METS:FLocat LOCTYPE="URL" xlink:href="DUBLIN-CORE-LOCATION"/>
+            </METS:file>
+            <METS:file ID="DARWIN-CORE1" USE="DARWIN-CORE">
+                <METS:FLocat LOCTYPE="URL" xlink:href="DARWIN-CORE-LOCATION"/>
+            </METS:file>
+            <METS:file ID="VRA-CORE1" USE="VRA-CORE">
+                <METS:FLocat LOCTYPE="URL" xlink:href="VRA-CORE-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS1" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-WAV-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS2" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-MP3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS3" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-M4A-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS4" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-OGG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS5" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-TIFF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS6" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-JPG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS7" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-PNG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS8" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-GIF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS9" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-JP2-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS10" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-NEF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS11" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-CR2-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS12" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-PSD-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS13" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-DNG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS14" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-PDF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS15" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-WORD-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS16" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-EPUB-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS17" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-TXT-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS18" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-RTF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS19" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-XML-EN-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS20" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-XML-ES-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS21" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-XSL-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS22" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-MOV-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS23" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-MP4-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS24" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-AVI-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS25" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-MPEG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS26" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-ZIP-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS27" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-TAR-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS28" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-TARGZ-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS29" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-PPTX-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS30" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-PPT-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS31" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-KEY-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS32" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-XSLX-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS33" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-CSV-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS34" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-XLS-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS35" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-TSV-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="managed_files">
+            <METS:file ID="audio1" MIMETYPE="audio/wav">
+                <METS:FLocat LOCTYPE="URL" xlink:href="WAV-LOCATION"/>
+            </METS:file>
+            <METS:file ID="audio2" MIMETYPE="audio/mpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MP3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="audio3" MIMETYPE="audio/mpeg4-generic">
+                <METS:FLocat LOCTYPE="URL" xlink:href="M4A-LOCATION"/>
+            </METS:file>
+            <METS:file ID="audio4" MIMETYPE="audio/ogg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="OGG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="caption1" MIMETYPE="text/plain">
+                <METS:FLocat LOCTYPE="URL" xlink:href="VTT-ENGLISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="caption2" MIMETYPE="text/plain">
+                <METS:FLocat LOCTYPE="URL" xlink:href="VTT-SPANISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="caption3" MIMETYPE="text/plain">
+                <METS:FLocat LOCTYPE="URL" xlink:href="SRT-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image1" MIMETYPE="image/tiff">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TIFF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image2" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="JPEG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image3" MIMETYPE="image/png">
+                <METS:FLocat LOCTYPE="URL" xlink:href="PNG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image4" MIMETYPE="image/gif">
+                <METS:FLocat LOCTYPE="URL" xlink:href="GIF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image5" MIMETYPE="image/jp2">
+                <METS:FLocat LOCTYPE="URL" xlink:href="JP2-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image6" MIMETYPE="image/x-nikon-nef">
+                <METS:FLocat LOCTYPE="URL" xlink:href="NEF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image7" MIMETYPE="image/x-canon-cr2">
+                <METS:FLocat LOCTYPE="URL" xlink:href="CR2-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image8" MIMETYPE="image/vnd.adobe.photoshop">
+                <METS:FLocat LOCTYPE="URL" xlink:href="PSD-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image9" MIMETYPE="image/x-adobe-dng">
+                <METS:FLocat LOCTYPE="URL" xlink:href="DNG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image16" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="JPEG-POSTER-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text1" MIMETYPE="application/pdf">
+                <METS:FLocat LOCTYPE="URL" xlink:href="PDF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text2" MIMETYPE="application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                <METS:FLocat LOCTYPE="URL" xlink:href="WORD-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text3" MIMETYPE="application/epub+zip">
+                <METS:FLocat LOCTYPE="URL" xlink:href="EPUB-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text4" MIMETYPE="text/plain">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TXT-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text5" MIMETYPE="application/rtf">
+                <METS:FLocat LOCTYPE="URL" xlink:href="RTF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text6" MIMETYPE="application/xml">
+                <METS:FLocat LOCTYPE="URL" xlink:href="XML-ENGLISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text7" MIMETYPE="application/xml">
+                <METS:FLocat LOCTYPE="URL" xlink:href="XML-SPANISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text8" MIMETYPE="application/xml">
+                <METS:FLocat LOCTYPE="URL" xlink:href="XSL-LOCATION"/>
+            </METS:file>
+            <METS:file ID="video1" MIMETYPE="video/quicktime">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MOV-LOCATION"/>
+            </METS:file>
+            <METS:file ID="video2" MIMETYPE="video/mp4">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MP4-LOCATION"/>
+            </METS:file>
+            <METS:file ID="video3" MIMETYPE="video/x-msvideo">
+                <METS:FLocat LOCTYPE="URL" xlink:href="AVI-LOCATION"/>
+            </METS:file>
+            <METS:file ID="video4" MIMETYPE="video/mpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MPEG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="package1" MIMETYPE="application/zip">
+                <METS:FLocat LOCTYPE="URL" xlink:href="ZIP-LOCATION"/>
+            </METS:file>
+            <METS:file ID="package2" MIMETYPE="application/x-tar">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TAR-LOCATION"/>
+            </METS:file>
+            <METS:file ID="package3" MIMETYPE="application/gzip">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TARGZ-LOCATION"/>
+            </METS:file>
+            <METS:file ID="presentation1" MIMETYPE="application/vnd.openxmlformats-officedocument.presentationml.presentation">
+                <METS:FLocat LOCTYPE="URL" xlink:href="PPTX-LOCATION"/>
+            </METS:file>
+            <METS:file ID="presentation2" MIMETYPE="application/vnd.ms-powerpoint">
+                <METS:FLocat LOCTYPE="URL" xlink:href="PPT-LOCATION"/>
+            </METS:file>
+            <METS:file ID="presentation3" MIMETYPE="application/vnd.apple.keynote">
+                <METS:FLocat LOCTYPE="URL" xlink:href="KEY-LOCATION"/>
+            </METS:file>
+            <METS:file ID="spreadsheet1" MIMETYPE="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+                <METS:FLocat LOCTYPE="URL" xlink:href="XLSX-LOCATION"/>
+            </METS:file>
+            <METS:file ID="spreadsheet2" MIMETYPE="text/csv">
+                <METS:FLocat LOCTYPE="URL" xlink:href="CSV-LOCATION"/>
+            </METS:file>
+            <METS:file ID="spreadsheet3" MIMETYPE="application/vnd.ms-excel">
+                <METS:FLocat LOCTYPE="URL" xlink:href="XLS-LOCATION"/>
+            </METS:file>
+            <METS:file ID="spreadsheet4" MIMETYPE="text/tab-separated-values">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TSV-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="derivative_files">
+            <METS:file ID="audio5" MIMETYPE="audio/mpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="WAV-2-MP3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="audio6" MIMETYPE="audio/mpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="OGG-2-MP3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image10" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="NEF-2-JPG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image11" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="CR2-2-JPG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image12" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="PSD-2-JPG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image13" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="DNG-2-JPG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text9" MIMETYPE="application/pdf">
+                <METS:FLocat LOCTYPE="URL" xlink:href="WORD-2-PDF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="presentation4" MIMETYPE="application/pdf">
+                <METS:FLocat LOCTYPE="URL" xlink:href="PPTX-2-PDF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="presentation5" MIMETYPE="application/pdf">
+                <METS:FLocat LOCTYPE="URL" xlink:href="PPT-2-PDF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="presentation6" MIMETYPE="application/pdf">
+                <METS:FLocat LOCTYPE="URL" xlink:href="KEY-2-PDF-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb1" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-1-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb2" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-2-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb3" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb4" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-4-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb5" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-5-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="external_files">
+            <METS:file ID="streaming1">
+                <METS:FLocat LOCTYPE="URL" xlink:href="AUDIO-STREAMING-LOCATION"/>
+            </METS:file>
+            <METS:file ID="streaming2">
+                <METS:FLocat LOCTYPE="URL" xlink:href="VIDEO-STREAMING-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image14">
+                <METS:FLocat LOCTYPE="URL" xlink:href="IIIF1-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image15">
+                <METS:FLocat LOCTYPE="URL" xlink:href="IIIF2-LOCATION"/>
+            </METS:file>
+            <METS:file ID="json1">
+                <METS:FLocat LOCTYPE="URL" xlink:href="IIIF-MANIFEST-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text10">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TEI-ENGLISH-BASEX-LOCATION"/>
+            </METS:file>
+            <METS:file ID="text11">
+                <METS:FLocat LOCTYPE="URL" xlink:href="TEI-SPANISH-BASEX-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+    </METS:fileSec>
+    <METS:structMap>
+        <METS:div TYPE="work">
+            <METS:div TYPE="metadata">
+                <METS:div TYPE="ACCESS">
+                    <METS:fptr FILEID="ACCESS1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="MODS">
+                    <METS:fptr FILEID="MODS1" xml:lang="en"/>
+                    <METS:fptr FILEID="MODS2" xml:lang="es"/>
+                </METS:div>
+                <METS:div TYPE="DUBLIN-CORE">
+                    <METS:fptr FILEID="DUBLIN-CORE1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="DARWIN-CORE">
+                    <METS:fptr FILEID="DARWIN-CORE1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="VRA">
+                    <METS:fptr FILEID="VRA-CORE1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="FITS">
+                    <METS:fptr FILEID="FITS1" CONTENTIDS="#audio1"/>
+                    <METS:fptr FILEID="FITS2" CONTENTIDS="#audio2"/>
+                    <METS:fptr FILEID="FITS3" CONTENTIDS="#audio3"/>
+                    <METS:fptr FILEID="FITS4" CONTENTIDS="#audio4"/>
+                    <METS:fptr FILEID="FITS5" CONTENTIDS="#image1"/>
+                    <METS:fptr FILEID="FITS6" CONTENTIDS="#image2"/>
+                    <METS:fptr FILEID="FITS7" CONTENTIDS="#image3"/>
+                    <METS:fptr FILEID="FITS8" CONTENTIDS="#image4"/>
+                    <METS:fptr FILEID="FITS9" CONTENTIDS="#image5"/>
+                    <METS:fptr FILEID="FITS10" CONTENTIDS="#image6"/>
+                    <METS:fptr FILEID="FITS11" CONTENTIDS="#image7"/>
+                    <METS:fptr FILEID="FITS12" CONTENTIDS="#image8"/>
+                    <METS:fptr FILEID="FITS13" CONTENTIDS="#image9"/>
+                    <METS:fptr FILEID="FITS14" CONTENTIDS="#text1"/>
+                    <METS:fptr FILEID="FITS15" CONTENTIDS="#text2"/>
+                    <METS:fptr FILEID="FITS16" CONTENTIDS="#text3"/>
+                    <METS:fptr FILEID="FITS17" CONTENTIDS="#text4"/>
+                    <METS:fptr FILEID="FITS18" CONTENTIDS="#text5"/>
+                    <METS:fptr FILEID="FITS19" CONTENTIDS="#text6"/>
+                    <METS:fptr FILEID="FITS20" CONTENTIDS="#text7"/>
+                    <METS:fptr FILEID="FITS21" CONTENTIDS="#text8"/>
+                    <METS:fptr FILEID="FITS22" CONTENTIDS="#video1"/>
+                    <METS:fptr FILEID="FITS23" CONTENTIDS="#video2"/>
+                    <METS:fptr FILEID="FITS24" CONTENTIDS="#video3"/>
+                    <METS:fptr FILEID="FITS25" CONTENTIDS="#video4"/>
+                    <METS:fptr FILEID="FITS26" CONTENTIDS="#package1"/>
+                    <METS:fptr FILEID="FITS27" CONTENTIDS="#package2"/>
+                    <METS:fptr FILEID="FITS28" CONTENTIDS="#package3"/>
+                    <METS:fptr FILEID="FITS29" CONTENTIDS="#presentation1"/>
+                    <METS:fptr FILEID="FITS30" CONTENTIDS="#presentation2"/>
+                    <METS:fptr FILEID="FITS31" CONTENTIDS="#presentation3"/>
+                    <METS:fptr FILEID="FITS32" CONTENTIDS="#spreadsheet1"/>
+                    <METS:fptr FILEID="FITS33" CONTENTIDS="#spreadsheet2"/>
+                    <METS:fptr FILEID="FITS34" CONTENTIDS="#spreadsheet3"/>
+                    <METS:fptr FILEID="FITS35" CONTENTIDS="#spreadsheet4"/>
+                </METS:div>
+                <METS:div TYPE="poster_files">
+                    <METS:div TYPE="poster_file" ORDER="0" LABEL="Poster file">
+                        <METS:fptr FILEID="image16"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="thumbnail_files">
+                    <METS:div TYPE="thumbnail_file" ORDER="1" LABEL="Thumbnail 1">
+                        <METS:fptr FILEID="thumb1"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="2" LABEL="Thumbnail 2">
+                        <METS:fptr FILEID="thumb2"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="3" LABEL="Thumbnail 3">
+                        <METS:fptr FILEID="thumb3"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="4" LABEL="Thumbnail 4">
+                        <METS:fptr FILEID="thumb4"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="5" LABEL="Thumbnail 5">
+                        <METS:fptr FILEID="thumb5"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="IIIF_manifests">
+                    <METS:div TYPE="IIIF_manifest" ORDER="1" LABEL="Manifest">
+                        <METS:fptr FILEID="json1"/>
+                    </METS:div>
+                </METS:div>
+            </METS:div>
+            <METS:div TYPE="representations">
+                <METS:div TYPE="audio_files">
+                    <METS:div TYPE="audio_file" ORDER="0" LABEL="Preservation">
+                        <METS:fptr FILEID="audio1" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="audio_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="audio2" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="audio_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="audio3" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="audio_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="audio4" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="audio_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="audio5" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="audio_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="audio6" xml:lang="en"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="video_files">
+                    <METS:div TYPE="video_file" ORDER="0" LABEL="Preservation">
+                        <METS:fptr FILEID="video1" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="video_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="video2" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="video_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="video3" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="video_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="video4" xml:lang="en"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="streaming_media">
+                    <METS:div TYPE="streaming_audio" ORDER="0" LABEL="Streaming">
+                        <METS:fptr FILEID="streaming1" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="streaming_video" ORDER="0" LABEL="Streaming">
+                        <METS:fptr FILEID="streaming2" xml:lang="en"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="caption_files">
+                    <METS:div TYPE="caption_file" ORDER="0" CONTENTIDS="#audio1" LABEL="Captions">
+                        <METS:fptr FILEID="caption1" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="caption_file" ORDER="0" CONTENTIDS="#audio2" LABEL="Captions">
+                        <METS:fptr FILEID="caption2" xml:lang="es"/>
+                    </METS:div>
+                    <METS:div TYPE="caption_file" ORDER="0" CONTENTIDS="#video1" LABEL="Captions">
+                        <METS:fptr FILEID="caption3" xml:lang="en"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="image_files">
+                    <METS:div TYPE="image_file" ORDER="1" LABEL="Preservation">
+                        <METS:fptr FILEID="image1"/>
+                    </METS:div>
+                    <METS:div TYPE="image_file" ORDER="2" LABEL="Access">
+                        <METS:fptr FILEID="image2"/>
+                    </METS:div>
+                    <METS:div TYPE="image_file" ORDER="3" LABEL="Access">
+                        <METS:fptr FILEID="image3"/>
+                    </METS:div>
+                    <METS:div TYPE="image_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="image4"/>
+                    </METS:div>
+                    <METS:div TYPE="image_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="image5"/>
+                    </METS:div>
+                    <METS:div TYPE="image_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="image6"/>
+                    </METS:div>
+                    <METS:div TYPE="image_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="image7"/>
+                    </METS:div>
+                    <METS:div TYPE="image_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="image8"/>
+                    </METS:div>
+                    <METS:div TYPE="image_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="image9"/>
+                    </METS:div>
+                    <METS:div TYPE="image_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="image10"/>
+                    </METS:div>
+                    <METS:div TYPE="image_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="image11"/>
+                    </METS:div>
+                    <METS:div TYPE="image_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="image12"/>
+                    </METS:div>
+                    <METS:div TYPE="image_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="image13"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="IIIF_image_files">
+                    <METS:div TYPE="IIIF_image_file" ORDER="1">
+                        <METS:fptr FILEID="image14"/>
+                    </METS:div>
+                    <METS:div TYPE="IIIF_image_file" ORDER="2">
+                        <METS:fptr FILEID="image15"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="text_files">
+                    <METS:div TYPE="PDF_file" ORDER="0" LABEL="PDF">
+                        <METS:fptr FILEID="text1" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="word_file" ORDER="0" LABEL="Word">
+                        <METS:fptr FILEID="text2" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="EPUB_file" ORDER="0" LABEL="EPUB">
+                        <METS:fptr FILEID="text3" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="text_file" ORDER="0" LABEL="Text">
+                        <METS:fptr FILEID="text4" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="text_file" ORDER="0" LABEL="Text">
+                        <METS:fptr FILEID="text5" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="PDF_file" ORDER="0" LABEL="PDF">
+                        <METS:fptr FILEID="text9" xml:lang="en"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="XML_files">
+                    <METS:div TYPE="TEI_file" ORDER="0" LABEL="TEI">
+                        <METS:fptr FILEID="text6" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="TEI_file" ORDER="0" LABEL="TEI">
+                        <METS:fptr FILEID="text7" xml:lang="es"/>
+                    </METS:div>
+                    <METS:div TYPE="XSL_file" ORDER="0" LABEL="Stylesheet">
+                        <METS:fptr FILEID="text8" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="indexed_TEI_file" ORDER="0" LABEL="TEI">
+                        <METS:fptr FILEID="text10" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="indexed_TEI_file" ORDER="0" LABEL="TEI">
+                        <METS:fptr FILEID="text11" xml:lang="es"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="package_files">
+                    <METS:div TYPE="ZIP_file" ORDER="0" LABEL="ZIP package">
+                        <METS:fptr FILEID="package1"/>
+                    </METS:div>
+                    <METS:div TYPE="TAR_file" ORDER="0" LABEL="TAR package">
+                        <METS:fptr FILEID="package2"/>
+                    </METS:div>
+                    <METS:div TYPE="TAR_file" ORDER="0" LABEL="TAR package">
+                        <METS:fptr FILEID="package3"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="spreadsheet_files">
+                    <METS:div TYPE="spreadsheet_file" ORDER="0" LABEL="Spreasheet">
+                        <METS:fptr FILEID="spreadsheet1"/>
+                    </METS:div>
+                    <METS:div TYPE="spreadsheet_file" ORDER="0" LABEL="Spreasheet">
+                        <METS:fptr FILEID="spreadsheet2"/>
+                    </METS:div>
+                    <METS:div TYPE="spreadsheet_file" ORDER="0" LABEL="Spreasheet">
+                        <METS:fptr FILEID="spreadsheet3"/>
+                    </METS:div>
+                    <METS:div TYPE="spreadsheet_file" ORDER="0" LABEL="Spreasheet">
+                        <METS:fptr FILEID="spreadsheet4"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="presentation_files">
+                    <METS:div TYPE="presentation_file" ORDER="0" LABEL="Presentation">
+                        <METS:fptr FILEID="presentation1" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="presentation_file" ORDER="0" LABEL="Presentation">
+                        <METS:fptr FILEID="presentation2" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="presentation_file" ORDER="0" LABEL="Presentation">
+                        <METS:fptr FILEID="presentation3" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="presentation_file" ORDER="0" LABEL="Presentation">
+                        <METS:fptr FILEID="presentation4" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="presentation_file" ORDER="0" LABEL="Presentation">
+                        <METS:fptr FILEID="presentation5" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="presentation_file" ORDER="0" LABEL="Presentation">
+                        <METS:fptr FILEID="presentation6" xml:lang="en"/>
+                    </METS:div>
+                </METS:div>
+            </METS:div>
+        </METS:div>
+    </METS:structMap>
+</METS:mets>

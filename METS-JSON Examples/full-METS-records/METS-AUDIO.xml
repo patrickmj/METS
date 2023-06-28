@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="NEU:AUDIO">
+
+    <METS:fileSec>
+        <METS:fileGrp USE="metadata">
+            <METS:file ID="ACCESS1" USE="ACCESS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="ACCESS-LOCATION"/>
+            </METS:file>
+            <METS:file ID="MODS1" USE="MODS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MODS-ENGLISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="FITS1" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-WAV"/>
+            </METS:file>
+            <METS:file ID="FITS2" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-MP3"/>
+            </METS:file>
+            <METS:file ID="FITS3" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-M4A"/>
+            </METS:file>
+            <METS:file ID="FITS4" USE="FITS">
+                <METS:FLocat LOCTYPE="URL" xlink:href="FITS-OGG"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="managed_files">
+            <METS:file ID="audio1" MIMETYPE="audio/wav">
+                <METS:FLocat LOCTYPE="URL" xlink:href="WAV-LOCATION"/>
+            </METS:file>
+            <METS:file ID="audio2" MIMETYPE="audio/mpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="MP3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="audio3" MIMETYPE="audio/mpeg4-generic">
+                <METS:FLocat LOCTYPE="URL" xlink:href="M4A-LOCATION"/>
+            </METS:file>
+            <METS:file ID="audio4" MIMETYPE="audio/ogg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="OGG-LOCATION"/>
+            </METS:file>
+            <METS:file ID="caption1" MIMETYPE="text/plain">
+                <METS:FLocat LOCTYPE="URL" xlink:href="VTT-ENGLISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="caption2" MIMETYPE="text/plain">
+                <METS:FLocat LOCTYPE="URL" xlink:href="VTT-SPANISH-LOCATION"/>
+            </METS:file>
+            <METS:file ID="image1" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="JPEG-POSTER-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="derivative_files">
+            <METS:file ID="audio5" MIMETYPE="audio/mpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="WAV-2-MP3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="audio6" MIMETYPE="audio/mpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="OGG-2-MP3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb1" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-1-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb2" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-2-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb3" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-3-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb4" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-4-LOCATION"/>
+            </METS:file>
+            <METS:file ID="thumb5" MIMETYPE="image/jpeg">
+                <METS:FLocat LOCTYPE="URL" xlink:href="THUMB-5-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+        <METS:fileGrp USE="external_files">
+            <METS:file ID="streaming1">
+                <METS:FLocat LOCTYPE="URL" xlink:href="AUDIO-STREAMING-LOCATION"/>
+            </METS:file>
+        </METS:fileGrp>
+    </METS:fileSec>
+    <METS:structMap>
+        <METS:div TYPE="work">
+            <METS:div TYPE="metadata">
+                <METS:div TYPE="ACCESS">
+                    <METS:fptr FILEID="ACCESS1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="MODS">
+                    <METS:fptr FILEID="MODS1" xml:lang="en"/>
+                </METS:div>
+                <METS:div TYPE="FITS">
+                    <METS:fptr FILEID="FITS1" CONTENTIDS="#audio1"/>
+                    <METS:fptr FILEID="FITS2" CONTENTIDS="#audio2"/>
+                    <METS:fptr FILEID="FITS3" CONTENTIDS="#audio3"/>
+                    <METS:fptr FILEID="FITS4" CONTENTIDS="#audio4"/>
+                </METS:div>
+                <METS:div TYPE="poster_files">
+                    <METS:div TYPE="poster_file" ORDER="0" LABEL="Poster file">
+                        <METS:fptr FILEID="image1"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="thumbnail_files">
+                    <METS:div TYPE="thumbnail_file" ORDER="1" LABEL="Thumbnail 1">
+                        <METS:fptr FILEID="thumb1"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="2" LABEL="Thumbnail 2">
+                        <METS:fptr FILEID="thumb2"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="3" LABEL="Thumbnail 3">
+                        <METS:fptr FILEID="thumb3"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="4" LABEL="Thumbnail 4">
+                        <METS:fptr FILEID="thumb4"/>
+                    </METS:div>
+                    <METS:div TYPE="thumbnail_file" ORDER="5" LABEL="Thumbnail 5">
+                        <METS:fptr FILEID="thumb5"/>
+                    </METS:div>
+                </METS:div>
+            </METS:div>
+            <METS:div TYPE="representations">
+                <METS:div TYPE="audio_files">
+                    <METS:div TYPE="audio_file" ORDER="0" LABEL="Preservation">
+                        <METS:fptr FILEID="audio1" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="audio_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="audio2" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="audio_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="audio3" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="audio_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="audio4" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="audio_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="audio5" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="audio_file" ORDER="0" LABEL="Access">
+                        <METS:fptr FILEID="audio6" xml:lang="en"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="streaming_media">
+                    <METS:div TYPE="streaming_audio" ORDER="0" LABEL="Streaming">
+                        <METS:fptr FILEID="streaming1" xml:lang="en"/>
+                    </METS:div>
+                </METS:div>
+                <METS:div TYPE="caption_files">
+                    <METS:div TYPE="caption_file" ORDER="0" CONTENTIDS="#audio1" LABEL="Captions">
+                        <METS:fptr FILEID="caption1" xml:lang="en"/>
+                    </METS:div>
+                    <METS:div TYPE="caption_file" ORDER="0" CONTENTIDS="#audio2" LABEL="Captions">
+                        <METS:fptr FILEID="caption2" xml:lang="es"/>
+                    </METS:div>
+                </METS:div>
+            </METS:div>
+        </METS:div>
+    </METS:structMap>
+</METS:mets>
