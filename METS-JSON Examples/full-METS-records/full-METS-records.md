@@ -1,0 +1,2 @@
+I finally made it through the exercise of creating a METS record that contains all reasonable file formats we can expect in the DRS. I had intended to also include formats we might support in v.2, like shapefiles and 3D files, but I was overwhelmed by the number of file options for shapefiles. If what I’ve already put together looks good, I’ll go through and add 3D and shapefiles to the final METS record, too. 
+The spreadsheet I used to document the filetypes is in Google Drive.
